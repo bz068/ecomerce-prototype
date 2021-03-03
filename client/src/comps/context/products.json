@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "title": "Title",
+        "price":"4.99",
+        "cat":"household",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, architecto."
+    },
+    {
+        "id": 2,
+        "title": "co0ke",
+        "price":"2.99",
+        "cat":"toilet",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, architecto."
+    }
+    ,
+    {
+        "id": 3,
+        "title": "pesi",
+        "price":"3.99",
+        "cat":"drink",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, architecto."
+    }
+,
+    {
+        "id": 4,
+        "title": "7up",
+        "price":"5.99",
+        "cat":"liquor",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, architecto."
+    }
+,
+    {
+        "id": 5,
+        "title": "fanta",
+        "price":"2.99",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, architecto."
+    },
+    {
+        "id": 6,
+        "title": "locozade",
+        "price":"5.99",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, architecto."
+    },
+    {
+        "id": 7,
+        "title": "peeeep",
+        "price":"0.99",
+        "cat":"household",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, architecto."
+    }
+
+]

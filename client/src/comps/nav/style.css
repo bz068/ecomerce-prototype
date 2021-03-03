@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: rgb(128, 159, 226);
+} */
+
+.logo {
+  width: 170px;
+}
+
+.navbar {
+  padding: 10px 30px;
+  box-shadow: 10px 10px 10px rgb(201, 201, 201);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+nav h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+}
+
+ul {
+  display: flex;
+}
+
+li:hover {
+  background-color: rgb(177, 163, 163);
+  cursor: pointer;
+}
+
+li {
+  padding: 5px 10px;
+  margin: 20px 0;
+  list-style: none;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 5px;
+}
+
+.link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+
+  font-family: JetBrains Mono;
+}
+
+.loginBtn {
+  background-color: rgba(255, 0, 0, 0.274);
+}
+
+Link {
+  text-decoration: none;
+}
+
+#bars {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+
+  display: none;
+}
+p span {
+  color: rgb(45, 133, 52);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* .fa-bars:hover {
+  transform: rotate(90deg);
+  transition: 1s;
+} */
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    background-color: rgba(62, 63, 65, 0.144);
+  }
+
+  nav {
+    display: block;
+  }
+  ul {
+    display: none;
+  }
+  .show-ul {
+    display: block;
+  }
+
+  li {
+    padding: 5px;
+    text-align: center;
+  }
+  #bars {
+    display: block;
+    color: rgb(53, 80, 80);
+    animation-name: barAnimate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+  }
+
+  #bars:hover {
+    transform: rotate(90deg);
+    /* transition: 1s; */
+
+    -webkit-transition: transform 1s;
+  }
+}
+
+@keyframes barAnimate {
+  25% {
+    transform: scale(0.9);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .navbar {
+    padding: 10px 10%;
+  }
+}
